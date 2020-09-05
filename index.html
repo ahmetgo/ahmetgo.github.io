@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ahmet Ayhan</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <div class="hero">
+    <div class="nav-bar">
+        <div class="nav-logo">
+            <img src="logo.png">
+        </div>
+        <div class="nav-links" id="nav-links">
+            <i class="fa fa-close" onclick="closeMenu()"></i>
+            <a href="https://www.facebook.com/ahmet.ayhan.311056" <i class="fa fa-facebook">Ahmet Ayhan</i></a>
+            <a href="https://instagram.com/a.ayhann1?igshid=t8d0p5ff8tgj" <i class="fa fa-instagram">a.ayhann1</i></a>
+            <a href="https://twitter.com/ahmet45ay?s=09" <i class="fa fa-twitter">ahmet45ay</i></a>
+            
+            
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </div> 
+    <div class="banner-title">
+        <h1><span>Hayalinin</span> Peşinden <br> Koş.</h1>
+       
+    </div>
+    <div class="vertical-bar">
+        <div class="search-icon">
+            <i class="fa fa-th-list"></i>
+            <i class="fa fa-search"></i>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/ahmet.ayhan.311056" <i class="fa fa-facebook"></i></a>
+            <a href="https://instagram.com/a.ayhann1?igshid=t8d0p5ff8tgj" <i class="fa fa-instagram"></i></a>
+            <a href="https://twitter.com/ahmet45ay?s=09" <i class="fa fa-twitter"></i></a>
+            
+        </div>
+    </div>
+   
+    </div>
+    
+
+<script>
+    
+    var show = document.getElementById("nav-links");
+    function showMenu(){
+         show.style.right = "0";
+         
+    }
+    function closeMenu(){
+         show.style.right ="-200px";
+         
+    }
+</script>
+  </body>
+  </html>
+  
